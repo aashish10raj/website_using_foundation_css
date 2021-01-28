@@ -1,0 +1,2845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Compute-2020</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  <meta http-equiv = "x-ua-compatible" content = "ie = edge" />
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1.0" />
+      
+  <!--foundation cdn-->
+  <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+
+      <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/css/foundation.css">
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js"></script>
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/foundation.min.js"></script>
+      <!-- Compressed CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+
+<!-- Compressed JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+<!-- foundation-float.min.css: Compressed CSS with legacy Float Grid -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation-float.min.css" integrity="sha256-4ldVyEvC86/kae2IBWw+eJrTiwNEbUUTmN0zkP4luL4=" crossorigin="anonymous">
+
+<!-- foundation-prototype.min.css: Compressed CSS with prototyping classes -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation-prototype.min.css" integrity="sha256-BiKflOunI0SIxlTOOUCQ0HgwXrRrRwBkIYppEllPIok=" crossorigin="anonymous">
+
+<!-- foundation-rtl.min.css: Compressed CSS with right-to-left reading direction -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation-rtl.min.css" integrity="sha256-F+9Ns8Z/1ZISonBbojH743hsmF3x3AlQdJEeD8DhQsE=" crossorigin="anonymous">
+  <!-- Favicons -->
+  <link href="img/icon.png" rel="icon">
+  <link href="img/icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
+    rel="stylesheet">
+
+  
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/counter.css" rel="stylesheet">
+  <!--jquer cdn-->
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/foundation.min.js">
+</script>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js">
+
+</script>
+</head>
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+<script>
+  $(document).foundation();
+</script>
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <img src="./img/acm-logo.png" alt="" title="">
+        <h4><a href="#main">Compute<span> 2020</span></a></h4>
+        <!--<a href="#intro" class="scrollto"><img src="img/logo.png" alt="" title=""></a>-->
+      
+      <div class="top-bar" id="example-menu">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li class="menu-text"></li>
+      <li class="has-submenu">
+        <a href="#0">Previous Conference</a>
+        <ul class="submenu menu vertical" data-submenu>
+          <li><a href="#0">2018</a></li>
+          <li><a href="#0">2019</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="#0">Home</a></li>
+      <li><a href="#0">Important Dates</a></li>
+      <li><a href="#0">Committee</a></li>
+      <li><a href="#0">Workshop</a></li>
+      <li><a href="#0">Schedule</a></li>
+      <li><a href="#0">Registration</a></li>
+      <li class="has-submenu">
+        <a href="#0">Calls</a>
+        <ul class="submenu menu vertical" data-submenu>
+          <li><a href="#0">Area of focus</a></li>
+          <li><a href="#0">Abstract form and submission</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="#0">Venue</a></li>
+      <li><a href="#0">Sponsors</a></li>
+      <li><a href="#0">Contact</a></li>
+    </ul>
+  </div>
+    </div>
+  </header><!-- #header -->
+
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+    <div class="intro-container wow fadeIn">
+      <!--<h1 class="mb-4 pb-0">The Annual<br><span>Technological</span> Symposium</h1>-->
+      <h1 class="mb-4 pb-0">Compute 2020 </h1>
+      <p class="mb-4 pb-0">December 10-12 2020 </p>
+      <p class="mb-4 pb-0">Visvesvaraya National Institute of Technology, Maharashtra, India</p>
+   
+      <a href="#about1" class="button">About The Event</a>
+	  <!--
+	  <div class="countdown">
+		<div class="container days">
+			<canvas id="days-canvas" width="200" height="200"></canvas>
+				<svg width="200" height="200">
+					<circle id="outer" cx="70" cy="70" r="65" fill="transparent" stroke-width="5" stroke="#47FFAF" opacity="1"/>
+				</svg>
+			<div class="label">
+				<span id="days-value"></span>
+				<span>days</span>
+			</div>
+		</div>
+		<div class="container hours">
+			<canvas id="hours-canvas" width="200" height="200"></canvas>
+				<svg width="200" height="200">
+					<circle id="outer" cx="70" cy="70" r="65" fill="transparent" stroke-width="5" stroke="#FFA246" opacity="1"/>
+				</svg>
+			<div class="label">
+				<span id="hours-value"></span>
+				<span>hours</span>
+			</div>
+		</div>
+		<div class="container minutes">
+			<canvas id="minutes-canvas" width="200" height="200"></canvas>
+				<svg width="200" height="200">
+					<circle id="outer" cx="70" cy="70" r="65" fill="transparent" stroke-width="5" stroke="#E834B1" opacity="1"/>
+				</svg>
+				<div class="label">
+				<span id="minutes-value"></span>
+				<span>minutes</span>
+				</div>
+		</div>
+		<div class="container seconds">
+			<canvas id="seconds-canvas" width="200" height="200"></canvas>
+			<svg width="200" height="200">
+			<circle id="outer" cx="70" cy="70" r="65" fill="transparent" stroke-width="5" stroke="#3A55FF" opacity="1"/>
+			</svg>
+			<div class="label">
+				<span id="seconds-value"></span>
+				<span>seconds</span>
+			</div>
+		</div>
+	</div>
+	
+	
+<script id="rendered-js">
+// Set Launch Date (ms)
+const launchDate = new Date("December 10, 2020 13:00:00").getTime();
+
+// Context object
+const c = {
+  context: {},
+  values: {},
+  times: {} };
+
+
+
+
+
+function init() {
+  // Get 2D contexts
+  c.context.seconds = document.getElementById('seconds-canvas').getContext('2d');
+  c.context.minutes = document.getElementById('minutes-canvas').getContext('2d');
+  c.context.hours = document.getElementById('hours-canvas').getContext('2d');
+  c.context.days = document.getElementById('days-canvas').getContext('2d');
+
+  // Get displayed values
+  c.values.seconds = document.getElementById('seconds-value');
+  c.values.minutes = document.getElementById('minutes-value');
+  c.values.hours = document.getElementById('hours-value');
+  c.values.days = document.getElementById('days-value');
+
+  setInterval(function () {
+    // Get todays date and time (ms)
+    const now = new Date().getTime();
+
+    // Get distance from now to launchDate
+    const distance = launchDate - now;
+
+    // Time calculations
+    c.times.days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    c.times.hours = Math.floor(
+    distance % (1000 * 60 * 60 * 24) / (1000 * 60 * 60));
+
+    c.times.minutes = Math.floor(distance % (1000 * 60 * 60) / (1000 * 60));
+    c.times.seconds = Math.floor(distance % (1000 * 60) / 1000);
+
+    c.values.days.innerText = c.times.days;
+    c.values.hours.innerText = c.times.hours;
+    c.values.minutes.innerText = c.times.minutes;
+    c.values.seconds.innerText = c.times.seconds;
+
+    render(); // Draw!
+  }, 1000);
+}
+
+init();
+//# sourceURL=pen.js
+    </script> -->
+
+    </div>
+	
+	
+	
+	
+	
+	
+	
+	
+  </section>
+   <section id="scrolling_announcement">
+    <div class="container-title">Announcements :
+ </div>
+    <ul class="announcements">
+			<li style="color:white">In view of the prevailing pandemic, this conference will be held virtually. There will be no physical events at VNIT."</li>
+            
+      <!--  <li>Keep in touch Schedule will be updated soon..</li> -->
+    </ul>
+
+  </section>
+
+
+  <main id="main">
+  
+
+    <!--==========================
+      About Section
+    ============================-->
+    <section >
+      <div class="callout">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 id="about1">About The Event</h2>
+            <p>ACM-India announces the 13th annual COMPUTE conference at Visvesvaraya National Institute of Technology, Maharashtra, India from December 10<sup>th</sup> - 12<sup>th</sup> 2020. Since 2018, ACM-India has decided to focus the theme of COMPUTE towards improving the quality
+              of computing education in the country.  This is the Third year of this thematic symposium.</p>
+
+          </div>
+          <div class="col-lg-3">
+            <h3>Where</h3>
+            <p>Visvesvaraya National Institute of Technology  Nagpur , Maharashtra , India</p>
+          </div>
+          <div class="col-lg-3">
+            <h3>When</h3>
+            <p>Thursday to Saturday<br>December 10<sup>th</sup> - 12<sup>th</sup> 2020</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!--==========================
+      Speakers Section
+    ============================-->
+    <!--<section id="speakers" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Event Speakers</h2>
+          <p>Will be updated.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Brenden Legros</a></h3>
+                <p>Quas alias incidunt</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/2.jpg" alt="Speaker 2" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Hubert Hirthe</a></h3>
+                <p>Consequuntur odio aut</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/3.jpg" alt="Speaker 3" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Cole Emmerich</a></h3>
+                <p>Fugiat laborum et</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/4.jpg" alt="Speaker 4" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Jack Christiansen</a></h3>
+                <p>Debitis iure vero</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/5.jpg" alt="Speaker 5" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Alejandrin Littel</a></h3>
+                <p>Qui molestiae natus</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/6.jpg" alt="Speaker 6" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Willow Trantow</a></h3>
+                <p>Non autem dicta</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>-->
+
+    <!--==========================
+      Schedule Section
+    ============================-->
+    <section id="schedule" class="section-with-bg">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h2>Event Schedule</h2>
+          *Hovering over the photo will show a short bio. 
+      Hovering over the title will show Abstract. 
+      Clicking on the name will open a link to the homepage.*
+          
+        </div>
+
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">09th December</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">10th December</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-3" role="tab" data-toggle="tab">11th December</a>
+          </li>
+      <li class="nav-item">
+            <a class="nav-link" href="#day-4" role="tab" data-toggle="tab">12th December</a>
+          </li>
+      
+        </ul>
+
+       
+        <div class="tab-content row justify-content-center">
+
+         
+
+          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+
+            <div class="row schedule-item">
+              <div class="col-md-2 "><time>Day 1 (Wednesday)</time></div>
+              <div class="col-md-10">
+                <h4>Inaugural, Awardee Talk, Workshop</h4>
+
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:45 AM</time></div>
+              <div class="col-md-10">
+                <h4>Inaugural Session</h4>
+                
+        
+                <div class="media-object">
+                  <div class="media-object-section">
+                    <div class="thumbnail">
+            <div class="speaker">
+                      <img data-tooltip class="top" data-click-open="false" tabindex="2" title="PC Co chair"src="img/speakers/viraj.webp" alt="Viraj Kumar">
+                    </div>
+                    <h4> <span><a href="https://www.dsu.edu.in/dr-viraj-kumar" target="_blank"
+                          rel="noopener">Viraj Kumar (PC Co-chair)</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Dayananda Sagar University, Bengaluru </p>
+                  </div>
+                </div>
+                </div>d
+              
+        
+        <div class="media-object">
+                  <div class="media-object-section">
+                    <div class="thumbnail">
+           <div class="speaker">
+                      <img data-tooltip class="top" data-click-open="false" tabindex="2" title="President ACM-India" src="img/speakers/harista.webp" alt="Jayant Harista">
+                    </div>
+                    <h4> <span><a href="https://dsl.cds.iisc.ac.in/~haritsa/"
+                          target="_blank" rel="noopener">Jayant Haritsa</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <p>President, ACM India Council<br/>
+             IISc Bengaluru</p>
+                  </div>
+                </div>
+              </div>
+        
+        
+        
+        
+        <div class="media-object">
+                  <div class="media-object-section">
+                    <div class="thumbnail">
+          <div class="speaker">
+                      <img data-tooltip class="top" data-click-open="false" tabindex="2" title="HOD CSE VNIT" src="img/speakers/uad.jpg" alt="Umesh Deshpande">
+                    </div>
+                    <h4> <span><a href="http://cse.vnit.ac.in/people/uadeshpande/" target="_blank"
+                          rel="noopener">Umesh Deshpande (OC Chair)</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <p> VNIT Nagpur</p>
+                  </div>
+                </div>
+              </div>
+                
+        
+        <div class="media-object">
+                  <div class="media-object-section">
+                    <div class="thumbnail">
+          <div class="speaker">
+                      <img data-tooltip class="top" data-click-open="false" tabindex="2" title="Director VNIT" src="img/speakers/padole.jpg" alt="Pramod Padole">
+                    </div>
+                    <h4> <span><a href="http://mec.vnit.ac.in/people/pmpadole/" target="_blank"
+                          rel="noopener">Pramod Padole  (Director, VNIT)</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <p> VNIT Nagpur</p>
+                  </div>
+                </div>
+              </div>
+        
+
+
+              </div>
+            </div>
+
+           
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:30 AM</time></div>
+              <div class="col-md-10">
+                <h4><a href="https://india.acm.org/awards/about-outstanding-contribution-to-computing-education-award">Talk by ACM India Outstanding Contribution to Computing Education Awardee</a> </h4>
+                <div class="row group-row">
+                  <div class="col-md-12">
+           <div class="speaker">
+                      <img data-tooltip class="top" data-click-open="false" tabindex="2" title="IIT Bombay" src="img/speakers/sridhar.webp" alt="Sridhar Iyer">
+                    </div> 
+                    <a data-toggle="tooltip" title="Abstract: In this talk I will start with discussing the levels in moving from teaching courses to educational research. I will present examples of work at each level and requirements for an instructor to transition from one level to another. This may be useful for instructors interested in the scholarship of teaching and learning. I will then discuss some opportunities for computing education research in India, and corresponding research methodologies. This may be useful for practicing instructors as well as students entering the field. I will conclude with some principles for scaling individual efforts to multi-institutional projects.">Computing education research: Opportunities in India</a>
+                    <h4><span><a href="https://www.cse.iitb.ac.in/~sri/" target="_blank"
+                          rel="noopener">Sridhar Iyer</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>
+                       
+            IIT Bombay
+                    </p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:30 AM</time></div>
+              <div class="col-md-10">
+               <div class="speaker">
+                     <a href="https://sites.google.com/view/actionresearchworkshop/team"> <img src="img/speakers/shitanshu.webp" alt="Shitanshu Mishra" title="*Bio and photos can be found on the workshop homepage here:*
+https://sites.google.com/view/actionresearchworkshop/team
+
+"></a>
+                    </div> 
+                <h4 data-toggle="tooltip" title="*Abstract of the workshop:*Many educators and scientists support the view
+that critical reflection is a necessary characteristic of self-driven
+successful teachers. Critical reflection enables the teachers to understand
+their students' dynamic learning needs better and improve their learning
+performances. In this workshop, we would provide hands-on training to the
+CS teachers on classroom action research as a formal tool to perform
+critical reflections. 
+The workshop would cover the following topics: 
+(1)Critical reflection for CS teachers.
+(2) Action research as a tool to do critical reflection.
+(3) Converting ideas to formal research. 
+(4) Resources for further action research. Due to COVID-19 travel restrictions, this
+would be an online workshop.
+
+">Workshop on Designing & Conducting Research Studies Part 1 </h4>
+                <h4><span><a href="https://my.vanderbilt.edu/shitanshu/" target="_blank"
+                      rel="noopener">Shitanshu Mishra</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                  </span></h4>
+                <p>
+                  Vanderbilt University <br/>
+          <p style= "padding-left:70px;"> IIT Bombay</p>
+                </p>
+              </div>
+            </div>
+
+            
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12:30 PM</time></div>
+              <div class="col-md-10">
+                <h4>Lunch Break</h4>
+              </div>
+            </div>
+
+           <div class="row schedule-item">
+              <div class="col-md-2"><time>02:30 PM</time></div>
+              <div class="col-md-10">
+               <div class="speaker">
+                     <a href="https://sites.google.com/view/actionresearchworkshop/team"> <img src="img/speakers/shitanshu.webp" alt="Shitanshu Mishra" title="*Bio and photos can be found on the workshop homepage here:*
+https://sites.google.com/view/actionresearchworkshop/team
+
+"></a>
+                    </div> 
+                <h4 data-toggle="tooltip" title="*Abstract of the workshop:*Many educators and scientists support the view
+that critical reflection is a necessary characteristic of self-driven
+successful teachers. Critical reflection enables the teachers to understand
+their students' dynamic learning needs better and improve their learning
+performances. In this workshop, we would provide hands-on training to the
+CS teachers on classroom action research as a formal tool to perform
+critical reflections. 
+The workshop would cover the following topics: 
+(1)Critical reflection for CS teachers.
+(2) Action research as a tool to do critical reflection.
+(3) Converting ideas to formal research. 
+(4) Resources for further action research. Due to COVID-19 travel restrictions, this
+would be an online workshop.
+
+">Workshop on Designing & Conducting Research Studies Part 2 </h4>
+                <h4><span><a href="https://my.vanderbilt.edu/shitanshu/" target="_blank"
+                      rel="noopener">Shitanshu Mishra</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                  </span></h4>
+                <p>
+                  Vanderbilt University <br/>
+          <p style= "padding-left:70px;"> IIT Bombay</p>
+                </p>
+              </div>
+            </div>
+      
+      
+      <div class="row schedule-item">
+              <div class="col-md-2"><time>04:30 PM</time></div>
+              <div class="col-md-10">
+                <h4>End of Day - 1</h4>
+              </div>
+            </div>
+       
+       
+           
+          </div>
+
+
+
+
+
+
+
+
+      <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
+
+      <div class="row schedule-item">
+              <div class="col-md-2 "><time>Day 2 (Thursday)</time></div>
+              <div class="col-md-10">
+                <h4>Computing Education Research</h4>
+
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:30 AM</time></div>
+              <div class="col-md-10">
+              <div class="speaker">
+                      <img src="img/speakers/Casey.webp" alt="Casey Fiesler" title="Bio: Casey Fiesler is an assistant professor and founding faculty in the Department of
+Information Science at University of Colorado Boulder, where she researches and teaches in
+the areas of technology ethics and policy, as well as social computing. Her work on research
+ethics for data science, ethics education in computing, and broadening participation in
+computing is supported by the National Science Foundation, as well as Mozilla and
+Omidyar Network as part of the Responsible Computer Science Challenge. She holds a PhD
+from Georgia Tech in Human-Centered Computing and a JD from Vanderbilt University Law
+School.">
+                    </div>  
+                <h4>Keynote 1: Ethics Integration in Computing Education</h4>
+        <a  data-toggle="tooltip" title="In recent years as technology ethics has become a more important part of public
+discourse, there has been increasing attention to the role of ethics in computer science
+pedagogy, particularly for emerging technology topics such as data science and artificial
+intelligence. In this talk, I will provide an overview of the current state of ethics education in
+computing and argue for an integrated approach that embeds ethics content into existing
+technical classes. I will end with concrete strategies for ethics integration and lessons from
+embedding ethics content into introductory programming courses." >Ethics Integration in Computing Education</a>
+                <h4><span><a href="https://www.colorado.edu/cmci/people/information-science/casey-fiesler" target="_blank" rel="noopener">Casey Fiesler 
+                     </a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                  </span></h4>
+                <p style="padding-left:70px;">
+         University of Colorado Boulder
+                  </p>
+              </div>
+            </div>
+
+            
+             <div class="row schedule-item">
+              <div class="col-md-2"><time>10:30 AM</time></div>
+              <div class="col-md-10">
+                <h4>Computing Education Research in India Part 1</h4>
+                <div class="row group-row">
+                  <div class="col-md-12">
+                   <div class="speaker">
+                      <img src="img/speakers/R_Ven.webp" alt="R Venkatesh" title= "Bio :
+Venakatesh has been part of TCS’ research group for more than 30 years. During this period he has contributed to the development of several software engineering tools used by practitioners in TCS. More recently he has been part of a team that developed VeriAbs, a software verification tool, that has won Gold two years in a row in the SVCOMP competition held along with TACAS. He is also part of a team that developed VeriFuzz that won Gold in TestComp, a competition for testing tools.
+">
+                    </div>
+                    <a data-toggle="tooltip" title="Programming assignments are commonly corrected by running a few tests and
+checking if the assignment works correctly on those tests. This is clearly
+not a proof of correctness of the assignment and in an experiment we
+conducted we found several bugs in assignments that were not detected by
+the tests designed for those assignments. In the general case proving an
+assignment correct is undecidable but there are several verification
+techniques that work well in practice. In this talk we present two such
+techniques -- shrinking and pruning – to verify programs that manipulate
+arrays. These techniques are designed to work around the need of inferring
+quantified invariants, which are usually expensive to obtain. We
+demonstrate them on actual submissions from an introductory course on
+programming in C.
+">Verifying Programming Assignments Involving Arrays</a>
+                    <h4><span><a href="https://www.tcs.com/reimagining-research/authors/r-venkatesh" target="_blank"
+                          rel="noopener">R Venkatesh </a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>
+                      TCS Research Pune, iSIGCSE
+                    </p>
+                  </div>
+                </div>
+                <div class="row group-row">
+                  <div class="col-md-12">
+          <div class="speaker">
+                      <img src="img/speakers/ameya.webp" alt="Ameya karkare">
+                                </div>
+                     <a data-toggle="tooltip" title="In this talk, I will describe Prutor (PRogramming tUTOR, 
+https://www.cse.iitk.ac.in/users/karkare/prutor/), a software system 
+to help teach courses that have simple programming exercises. It 
+comprises, among other things, an interface where students can solve 
+programming problems and receive immediate feedback on their solutions 
+while solving the problems. Prutor was built to teach the Introductory 
+Programming course at IIT Kanpur in 2014. Since then, it has been used 
+by several instructors across different institutes to conduct regular, 
+online, and massive online programming classes.
+
+The system collects valuable data regarding how the students solve the 
+problems, the errors they commit, and other information useful for 
+developing intelligent tools for giving feedback to students. This 
+system thus serves as a platform for tutoring as well as data 
+collection for researchers. I will briefly showcase our group's 
+research around Prutor.
+">Prutor: A system for automated tutoring of introductory programming courses </a>
+                    <h4><span><a href="https://www.cse.iitk.ac.in/users/karkare/" target="_blank"
+                          rel="noopener">Amey Karkare </a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>
+                      
+                      IIT Kanpur</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+      
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12:00 PM</time></div>
+              <div class="col-md-10">
+                <h4>Lunch Break</h4>
+              </div>
+            </div>
+
+      
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>02:30 PM</time></div>
+              <div class="col-md-10">
+                <h4>Computing Education Research in India Part 2</h4>
+                
+        <div class="row group-row">
+                  <div class="col-md-12">
+                   <div class="speaker">
+                      <img src="img/speakers/kavya.jpg" alt="Kavya Alse" title= "Bio: I am Kavya Alse <http://www.et.iitb.ac.in/~kavya>, a Research Scholar
+at EdTech <http://www.et.iitb.ac.in/>, IIT-Bombay. I am interested in
+developing technology based solutions for students and teachers especially
+in the domain of Computer Science. For my PhD, I am investigating CS
+undergraduates’ learning of network troubleshooting under the guidance of
+Prof. Sridhar Iyer and Prof. Sasikumar M.
+">
+                    </div>
+        <a data-toggle="tooltip" title="This talk will present my experience of writing research papers
+in the domain of Educational Technology, especially in Computer Science
+Education. The speaker will present
+
+i.                 How she plans and writes a paper
+
+ii.                Lessons she learnt from paper reviews and rejections
+">  Writing research paper in CS Education - My Experience </a>
+                    <h4><span><a href="http://www.et.iitb.ac.in/~kavya/" target="_blank" rel="noopener">Kavya Alse 
+          </a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <p> IIT Bombay 
+                    </p>
+                  </div>
+                </div>
+        
+                
+
+        
+        <div class="row group-row">
+                  <div class="col-md-12">
+          
+                     Language Agnostic Generation of Syntactically Incorrect Programs
+                    <h4><span>(Ramyani Ghosh, V S Meghana, Rasya Ramesh, N S Kumar) </span> </h4>
+                    <p>
+                      </p>
+                  </div>
+                </div>
+        
+        
+        
+                <div class="row group-row">
+                  <div class="col-md-12">
+          
+                     Collaborative Classroom
+                    <h4><span>(Aishwarya Venkatesh, Yamini Agarwal, Yash Patil, Vidhu Rojit) </span> </h4>
+                    <p>
+                      </p>
+                  </div>
+                </div>
+        
+        
+        <div class="row group-row">
+                  <div class="col-md-12">
+          
+                    Automated Evaluation of SQL Queries: Eval_SQL
+                    <h4><span>(Bhumika Shah, Jyoti Pareek) </span> </h4>
+                    <p>
+                      </p>
+                  </div>
+                </div>
+        
+        
+        
+          
+              </div>
+            </div>
+
+      
+      <div class="row schedule-item">
+              <div class="col-md-2"><time>04:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                      <img src="img/speakers/ricardo.jpg" alt="Ricardo Caceffo" title="Short Biography: Dr. Ricardo Caceffo is currently a participating professor at the University of
+Campinas (Unicamp) graduate program and also works at the Virtual University of São Paulo
+(Univesp), both located in Brazil. Before joining the academic career, he worked at regional-
+based technology companies. Ricardo was also a finalist in the Imagine Cup competition,
+organized by Microsoft in Cairo/Egypt (2009). He has taught CS1 disciplines at the university
+since 2015. He held a 2015/2016 postdoctoral fellowship at the University of British Columbia
+(UBC) in Canada, working on CSE and HCI projects." >
+                    </div>
+                <h4> Keynote 2: Learning How to Program in Python CS1 courses   </h4>
+        <a  data-toggle="tooltip" title="Abstract:
+One of the rising trends in the Computer Science Education area is the research and assessment
+of methodologies with a high potential of educational improvements in Introductory
+Programming (CS1) courses, especially the ones based in the Python programming language. In
+this talk I will highlight some initiatives on this front, like the adoption of Perceptual Learning
+Modules (PLM), an approach that supports learning through the mapping of student’s learning
+patterns; and the design and assessment of a Concept Inventory (CI), a set of multiple-choice
+questions used to reveal students&#39; misconceptions related to some topic. A CI is a powerful and
+validated instrument that, for example, could be administered at the beginning and end of CS1
+courses, allowing the identification of the students&#39; learning gains in a given period. Moreover, it
+also could be administered to instructors, helping the identification of misconceptions that
+inadvertently would be being taught to students.
+">Learning How to Program in Python CS1 courses: What We Know and Challenges for Students and Instructors</a>
+    
+                <h4><span><a href="http://www.ricardocaceffo.com/" target="_blank" rel="noopener" style="padding-left:70px;">Ricardo Caceffo , 
+        Technical Advisor to the Presidency at Univesp , Brazil
+                     </a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                  </span></h4>
+                <p>
+        
+                  </p>
+              </div>
+            </div>
+      
+      <div class="row schedule-item">
+              <div class="col-md-2"><time>05:00 PM</time></div>
+              <div class="col-md-10">
+                <h4>End of Day - 2</h4>
+              </div>
+            </div>
+            
+      
+          </div>
+
+
+
+
+
+
+
+
+      <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
+      
+      
+      <div class="row schedule-item">
+              <div class="col-md-2"><time>Day 3 (Friday)</time></div>
+              <div class="col-md-10">
+                <h4>Online Teaching-Learning and NEP</h4>
+
+              </div>
+            </div>
+
+
+      
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:30 AM</time></div>
+              <div class="col-md-10">
+                <h4>Invited talks: Best practices in Online Teaching/Learning</h4>
+                
+        
+        <div class="row group-row">
+                  <div class="col-md-12">
+          <div class="speaker">
+                      <img src="img/speakers/varsha.webp" alt="Varsha Apte">
+                    </div>
+                   <a data-toggle="tooltip" title="It has been decades since educational institutions and individual teachers in colleges started administering quizzes, exams and evaluating student assignments online. The initial push for focus on these techniques came as online education grew, class sizes grew culminating with  ‘MOOCs’. Nonetheless, online assessment was still only an option. However, the year 2020 became a completely different forcing function for all educators to figure out sensible ways to assess all of their students online, remotely, in a way that would not only scale, but would be low-resource friendly and be as credible as on-site assessment.
+
+ In this talk we will trace the evolution of online assessment over the years from merely an optional convenience to a  “cannot-do-without-it“ technology. Our focus will be partly on programming assignments and partly on online assessments in any subject. We will classify exams as onsite vs remote, online vs pen-paper, auto-graded vs manually graded and compare and contrast various combinations of these aspects of exams.
+"> Online Assessment: Challenges and Opportunities </a> 
+                    <h4><span><a
+                          href="https://www.cse.iitb.ac.in/~varsha/"
+                          target="_blank" rel="noopener">Varsha Apte</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>IIT Bombay
+                      </p>
+                  </div>
+                </div>
+        
+        
+                
+      
+                <div class="row group-row">
+                  <div class="col-md-12">
+          
+                    Engagement in Online STEM Learning: a Case Study of 3030-STEM  
+                    <h4><span>Manish Jain, Neeldhara Misra, Gaurav Yadav, Janardan Kannaujiya, Jay Thakkar, Jyoti Gupta, 
+              Neeraj Sharma, Pankaj Godara, Sarita Yadav, Satish Kumar and Tapas Hira </span> </h4>
+                    <p>
+                      </p>
+                  </div>
+                </div>
+        
+        
+        <div class="row group-row">
+                  <div class="col-md-12">
+                    <a data-toggle="tooltip" title="Virtual Labs, an initiative of the Govt. of India is a collection of online experiments for the students of Science and Engineering.
+In this talk, we present the following: 
+(1) Our observations of usage of virtual labs, specially since the beginning of the COVID-19 pandemic. 
+(2) Our experience in developing a well-received virtual lab in computer science (data structures), and an outreach program to build a community around these labs for adoption, improvement and development of virtual labs experiments.
+The talk is also a call to action to CS departments to collaborate with experts in non-CS disciplines and help build more labs to cater to the increased demand for such labs during these times.
+
+">Virtual Labs: Insights, Initiatives and building a Community</a> 
+                    <h4><span><b> Venkatesh Choppella</b>, Raj Agnihotri, Ojas Mohril, Priya Raman,
+              Ravi Pillutla, Mrityunjay Kumar </span> </h4>
+                    <p>
+                      </p>
+                  </div>
+                </div>
+        
+        
+        <div class="row group-row">
+                  <div class="col-md-12">
+          <div class="speaker">
+                      <img src="img/speakers/andrewlib.webp" alt="Andrew Thangaraj" title="Bio:
+Andrew Thangaraj received his B.Tech in Electrical Engineering from the Indian Institute of Technology (IIT), Madras, India in 1998 and a PhD in Electrical Engineering from the Georgia Institute of Technology, Atlanta, USA in 2003. He was a post-doctoral researcher at
+the GTL-CNRS Telecom lab at Georgia Tech Lorraine, Metz, France from August 2003 to May 2004. From June 2004, he has been with the Department of Electrical Engineering, IIT Madras, where he is currently a professor. From Jan 2012 to Jan 2018, he served as Editor
+for the IEEE Transactions on Communications. Since July 2018, he has been serving as an Associate Editor for Coding Techniques for the IEEE Transactions on Information Theory.
+
+Since Oct 2011, he has been serving as NPTEL coordinator at IIT Madras. He has played a key role in initiating and running NPTEL online courses and certification. He is currently a National MOOCs Coordinator for NPTEL in the SWAYAM project of the MHRD.
+
+Since May 2020, he has been serving as Coordinator for the Online Diploma and Degree Programme at IIT Madras.
+">
+                    </div>
+                   <a data-toggle="tooltip" title="Abstract:
+The National Programme for Technology Enhanced Learning (NPTEL), started in 2003, has created 2000+ courses in a wide range of subjects with 44,000+ hours of video lectures, and hosts them on the popular nptel.ac.in portal. Since 2014, NPTEL has been offering Massive Open Online Courses (MOOCs) through its portal onlinecourses.nptel.ac.in followed by in-person proctored examinations for certification, and currently runs the SWAYAM portal (swayam.gov.in) of the Ministry of Education, Government of India. More than 2000 MOOCs have been offered so far with 1 crore+ learners enrolling and 11.8 lakhs+ writing exams for certification.
+
+Computer science courses form a large fraction of NPTEL MOOCs, and attract the most enrolments and exam registrations. In this talk, we will focus on the different computer science courses on offer at NPTEL, and discuss multiple approaches that educators in the country
+have taken to teaching computing effectively at large scale. We will point out specific challenges and opportunities for improvement.
+
+Following the success of NPTEL, IITM has embarked on offering a BSc degree in Programming and Data Science with online instruction and in-person exams. We will present the salient aspects of the curriculum and operational details of this new program.
+"> Teaching computing at large scale - from NPTEL to IITM's new online degree </a> 
+                    <h4><span><a
+                          href="http://www.ee.iitm.ac.in/andrew/"
+                          target="_blank" rel="noopener">Andrew Thangaraj  </a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>IIT Madras
+                      </p>
+                  </div>
+                </div>
+
+        
+        
+        
+        
+        <div class="row group-row">
+                  <div class="col-md-12">
+          <div class="speaker">
+                      <img src="img/speakers/viral.webp" alt="Viral Shah">
+                    </div>
+                   <a data-toggle="tooltip" title="Abstract:The changing face of education necessitates the adoption and evolution of technology at much rapid pace. In particular, the way teachers and educators assess the students and how technology will help them in the assessment processes will have a pivotal role to play.
+ 
+We at TCS iON, constantly innovate to drive educational excellence and provide simplified technology solutions to the teachers and educators. Our digital solutions include platforms, hardware, and services that provide a ‘Phygital’ experience and reimagine the education sector from K-12 assessments to Higher Education and High-stake assessments. These assessment platforms are designed to speed up the assessments conducting abilities and bring transparency, accuracy, and efficiency in the assessment processes for the teachers. These easy to adopt solutions built on emerging technologies can help save teacher time and reallocate 30% of their time towards activities that support student developments.
+ 
+Join us to transform the traditional assessment landscape using technology!">Inside the Next Generation Assessment</a>
+                    <h4><span><a href="https://www.linkedin.com/in/viral-shah-6298121a/">Viral Shah</a></span><span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Head - TCS iON Products, Engineering, International Business
+                      </p>
+                  </div>
+                </div>
+          
+              </div>
+            </div>
+
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12:45 PM</time></div>
+              <div class="col-md-10">
+                <h4>Lunch Break</h4>
+              </div>
+            </div>
+
+
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>02:30 PM</time></div>
+              <div class="col-md-10">
+                <h4>Panel Discussion: on National Education Policy  &  Implications for CS Education</h4>
+                <div class="row group-row">
+                  <div class="col-md-12">
+          <div class="speaker">
+                      <img src="img/speakers/viraj.webp" alt="Viraj Kumar">
+                    </div>
+                    (Moderator)
+                    <h4> <span><a href="https://www.dsu.edu.in/dr-viraj-kumar" target="_blank" rel="noopener">Viraj
+                          Kumar (PC Co-chair) </a></span>
+                      <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Dayananda Sagar University, Bengaluru
+                  </div>
+                </div>
+                
+        <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/ramanujam.jpg" alt="R. Ramanujam">
+                    </div>
+                    <h4><span><a href="https://www.imsc.res.in/r_ramanujam" target="_blank"
+                          rel="noopener">R. Ramanujam</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>
+            IMSc Chennai
+                      </p>
+                  </div>
+                </div>
+
+                <div class="row group-row">
+                  <div class="col-md-12">
+                   <div class="speaker">
+                      <img src="img/speakers/pankaj.webp" alt="Pankaj Jalote">
+                    </div>
+                    <h4><span><a href="https://www.iiitd.edu.in/~jalote/" target="_blank" rel="noopener">
+          Pankaj Jalote </a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <p>IIIT Delhi </p>
+                  </div>
+                </div>
+
+                <div class="row group-row">
+                  <div class="col-md-12">
+                   <div class="speaker">
+                      <img src="img/speakers/sonia.webp" alt="Sonia Garcha">
+                    </div> 
+                    <h4><span><a href="https://in.linkedin.com/in/sonia-garcha-india" target="_blank" rel="noopener">Sonia Garcha</a></span> 
+          <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span>
+          </h4>
+                    <p>CSPathshala</p>
+                  </div>
+                </div>
+        
+        <div class="row group-row">
+                  <div class="col-md-12">
+                   <div class="speaker">
+                      <img src="img/speakers/chintala.webp" alt="Sandhya Chintala">
+                    </div> 
+                    <h4><span><a href="https://nasscom.in/sites/default/files/Dr-Sandhya.pdf" target="_blank" rel="noopener">Sandhya Chintala</a></span> 
+          <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span>
+          </h4>
+                    <p>Executive Director, IT – ITeS Sector Skills Council & VP NASSCOM</p>
+                  </div>
+                </div>
+        
+        
+
+            
+              </div>
+            </div>
+      
+      
+      <div class="row schedule-item">
+              <div class="col-md-2"><time>04:30 PM</time></div>
+              <div class="col-md-10">
+                <h4>End of Day - 3</h4>
+              </div>
+            </div>
+
+
+          </div>
+          
+      
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-4">
+      
+      <div class="row schedule-item">
+              <div class="col-md-2"><time>Day 4 (Saturday)</time></div>
+              <div class="col-md-10">
+                <h4>Industry Panel, Research Studies</h4>
+
+              </div>
+            </div>
+      
+      
+       <div class="row schedule-item">
+              <div class="col-md-2"><time>10:00 AM</time></div>
+              <div class="col-md-10">
+                <h4>Panel Discussion: Industry Panel: Industry Academia Collaboration and Beyond</h4>
+                <div class="row group-row">
+                  <div class="col-md-12">
+          <div class="speaker">
+                      <img src="img/speakers/pandeh.jpg" alt="Hemant Pande">
+                    </div>
+                    (Moderator)
+                    <h4> <span><a href="https://in.linkedin.com/in/pandehemant" target="_blank" rel="noopener">Hemant Pande </a></span>
+                      <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Executive Director, ACM India</p>
+                  </div>
+                </div>
+                
+        <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/sameer.jpg" alt="Sameer Bendre">
+                    </div>
+                    <h4><span><a href="https://www.linkedin.com/in/sameer-bendre-7401ab5/" target="_blank"
+                          rel="noopener"> Sameer Bendre</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Chief People Officer, Persistent Systems
+                      </p>
+                  </div>
+                </div>
+
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/hemant.jpg" alt="Hemant Gadgil">
+                    </div>
+                    <h4><span><a href="https://www.linkedin.com/in/hemant-gadgil-4850834/" target="_blank" rel="noopener">
+           Hemant Gadgil </a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <p> Executive Director, Dassault Systèmes Foundation India</p>
+                  </div>
+                </div>
+        
+        
+        <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/raju.webp" alt="Raju Goteti">
+                    </div>
+                    <h4><span><a href="https://www.linkedin.com/in/rajugoteti/" target="_blank" rel="noopener">
+           Raju Goteti  </a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <p> Vice President & Head, Co-Innovation Network, TCS</p>
+                  </div>
+                </div>
+
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/shalini.jpg" alt="Shalini Kapoor">
+                    </div>
+                    <h4><span><a
+                          href="https://www.linkedin.com/in/kshalini/"
+                          target="_blank" rel="noopener">Shalini Kapoor</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Director and CTO India, IBM-AI</p>
+                  </div>
+                </div>
+
+        <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/anil.jpg" alt="Anil Nair">
+                    </div>
+                    <h4><span><a
+                          href="https://www.linkedin.com/in/anilmr/"
+                          target="_blank" rel="noopener"> Anil Nair</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Vice President Network Security Products, Cisco</p>
+                  </div>
+                </div>
+
+
+        <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/pranali.webp" alt="Pranali Save">
+                    </div>
+                    <h4><span><a
+                          href="https://www.linkedin.com/in/pranalisave/"
+                          target="_blank" rel="noopener">Pranali Save</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Chief HR Officer, Icertis</p>
+                  </div>
+                </div>
+
+        <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/ashwani.jpg" alt="Ashwani Sharma">
+                    </div>
+                    <h4><span><a
+                          href="https://www.linkedin.com/in/ashwani-sharma-21630220/"
+                          target="_blank" rel="noopener">Ashwani Sharma</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Head of Research Operations and University Relations, Google Research</p>
+                  </div>
+                </div>
+
+
+
+
+    
+              </div>
+            </div>
+      
+     
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:30 AM</time></div>
+              <div class="col-md-10">
+                <h4>Short  Presentations</h4>
+                
+                <div class="row group-row">
+                  <div class="col-md-12">
+                      Surveying the role of Gamified MOOCs, Augmented and Virtual Reality for Engineering Education
+                    <h4><span> 
+              Deepti Prit Kaur, Vijayant Sharma, Jatin Singla </span> </h4>
+                    <p>
+                      
+                      </p>
+                  </div>
+                </div>
+
+            
+                <div class="row group-row">
+                  <div class="col-md-12">
+                     Enhancing the Learning process: Engineering on Virtual Platform 
+                    <h4><span> 
+              Prajna N Bhat, Anitha M, Shravani Yashodhara K, Ramesh Babu D. R.</h4>
+                    <p>
+                      </p>
+                  </div>
+                </div>
+        
+        
+        <div class="row group-row">
+                  <div class="col-md-12">
+                    A Preliminary Study of Gender Differences in Participation Rates in Competitive Programming Contests 
+                    <h4><span> Vishakha Agrawal, Simran Bhurat, Oindrila Banerjee and Vindhya Malagi</span> </h4>
+                    <p>
+                      </p>
+                  </div>
+                </div>
+        
+      
+              </div>
+            </div>
+      
+      
+      <div class="row schedule-item">
+              <div class="col-md-2"><time>12:00 PM</time></div>
+              <div class="col-md-10">
+                <h4>Lunch Break</h4>
+              </div>
+            </div>
+
+      
+      
+      
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>02:00 PM</time></div>
+              <div class="col-md-10">
+                <h4>Multi-institutional initiatives</h4>
+                
+        <div class="row group-row">
+                  <div class="col-md-12">
+                    <a data-toggle="tooltip" title="Abstract: This study examines whether there are gender-based disparities in programming competence among students in higher education, and if so, whether these disparities widen over the course of students' programmes. We hope the study will identify institutional best practices in gender-inclusive pedagogical practices, will raise awareness around such practices, and will lead to a more diverse pool of highly qualified job applicants." >  Multi-institutional Investigation of Gender Disparities on Programming Competence in India </a>
+                    <h4><span> 
+            Lead investigators: Chitra Babu (SSN College of Engineering), Neeldhara Misra (IIT Gandhinagar), Viraj Kumar (Dayananda Sagar University) </span> </h4>
+                    <p>
+                      
+                      </p>
+                  </div>
+                </div>
+
+            
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <a data-toggle="tooltip" title="This international study seeks to validate a concept inventory that evaluates conceptual understanding of Python. Concept inventories can be used to identify student misconceptions. Since some of the key challenges facing India and Brazil are common (limited resources, large urban/rural divide, etc.), we hope that this joint study will lead to a fruitful exchange of best practices."> 
+          Joint Evaluation of a Python Concept Inventory in Brazil and India </a>
+                    <h4><span> 
+             Lead investigators: Viraj Kumar (Dayananda Sagar University), Ricardo Caceffo (Institute of Computing - Unicamp, Brazil), Rodolfo Azevedo (Institute of Computing - Unicamp, Brazil)</h4>
+                    <p>
+                      </p>
+                  </div>
+                </div>
+        
+        
+        <div class="row group-row">
+                  <div class="col-md-12">
+                    <a data-toggle="tooltip" title="Algodynamics is an approach to teaching algorithms by presenting their design via interactive transition systems, and is the focus of the pre-conference workshop (December 3rd and 4th December 2020). After briefly presenting the key aspects of the Algodynamics approach for the benefit of those who did not attend the workshop, we discuss the feedback we received from the participants. Finally we discuss concrete steps planned to build a community around the Algodynamics approach. This includes a community of open source software enthusiasts (including students, faculty and anyone else) driving the development of Virtual Labs for Algodynamics, a community of teachers taking this idea to the classroom and a group of researchers experimenting and extending the pedagogy, collecting data and reporting the effectiveness of the approach.">
+          Algodynamics: Next steps for building a community</a> 
+                    <h4><span>Lead investigators: Venkatesh Choppella (IIIT Hyderabad) and Mrityunjay Kumar (IIIT Hyderabad)</span> </h4>
+                    <p>
+                      </p>
+                  </div>
+                </div>
+        
+                  
+                </div>
+              </div>
+        
+        
+        
+        <div class="row schedule-item">
+          <div class="col-md-2"><time>04:00 PM</time></div>
+            <div class="col-md-10">
+            <h4>Closing Remarks </h4>
+            
+            
+            <div class="row group-row">
+              <div class="col-md-12">
+              <div class="speaker">
+                      <img src="img/speakers/raman.webp" alt="Venkatesh Raman">
+                    </div>
+                <h4> <span><a href="https://www.imsc.res.in/~vraman/" target="_blank"
+                          rel="noopener">Venkatesh Raman (PC Co-chair)</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+              </span></h4>
+            <p>IMSc Chennai </p>
+            </div>
+            </div>
+          </div>  
+            
+        </div>
+        
+        
+        <div class="row schedule-item">
+          <div class="col-md-2"><time>04:15 PM</time></div>
+            <div class="col-md-10">
+            <h4>Vote of Thanks </h4>
+            
+            
+            <div class="row group-row">
+              <div class="col-md-12">
+              <div class="speaker">
+                      <img src="img/speakers/mk.webp" alt="Manish Kurhekar">
+                    </div>
+                <h4> <span><a href="http://cse.vnit.ac.in/people/mpkurhekar/" target="_blank"
+                          rel="noopener">Manish Kurhekar</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+              </span></h4>
+            <p>VNIT Nagpur </p>
+            </div>
+            </div>
+          </div>  
+            
+        </div>
+        
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>04:20 PM</time></div>
+              <div class="col-md-10">
+                <h4>End of Day - 4</h4>
+              </div>
+            </div>
+        
+        
+            </div>
+
+         
+
+                
+      
+        </div>
+      
+      
+     </div>
+   
+      
+  </section>
+        <!--==========================
+       Getting Here
+      ============================-->
+        <section id="important-dates" class="wow fadeIn" >
+            <div class="callout">
+                <div class="section-header">
+                    <h2>Important Dates</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" style= "text-align:center;">
+                        <h5 class="sub-header">
+                           
+                        </h5>
+                        <ul >
+                            <li style="list-style-type:none;"><span class="sub-header">Submission Deadline: </span>Friday, September 25<sup>th</sup>, 2020 at 23:59 IST.</li> <br/>
+                          <!--  <li><span class="sub-header">Submission Deadline Extended: </span></li> -->
+              <li style="list-style-type:none;><span class="sub-header">Notification to Authors: </span>Monday, October 19
+                <sup>th</sup>, 2020.</li> <br/>
+                            <li style="list-style-type:none;><span class="sub-header">Conference Date: </span>December 09<sup>th</sup>, 2020 to December 12<sup>th</sup>, 2020.</li>
+                        </ul>
+          </div>
+
+                
+            </div>
+
+        </section>
+
+    </main>
+<!--
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">10th October</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">11th October</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-3" role="tab" data-toggle="tab">12th October</a>
+          </li>
+        </ul>
+
+        <h3 class="sub-heading"><a><span>Download</span></a> the detailed schedule</h3>
+
+        <div class="tab-content row justify-content-center">
+
+           Schdule Day 1
+
+          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>08:30 AM</time></div>
+              <div class="col-md-10">
+                <h4>Registration -- The International Centre Goa, Dona Paula-Goa</h4>
+
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:15 AM</time></div>
+              <div class="col-md-10">
+                <h4>Inauguration -- The International Centre Goa, Dona Paula-Goa</h4>
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <h4>Chief Guest -- <span><a href="https://scis.uohyd.ac.in/~akpcs/" target="_blank"
+                          rel="noopener">Arun Pujari</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Vice-Chancellor of Rajasthan Central University, Rajasthan, India</p>
+                  </div>
+                </div>
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <h4>Guest of Honor -- <span><a href="https://en.wikipedia.org/wiki/Deepak_B._Phatak" target="_blank"
+                          rel="noopener">Deepak B. Phatak</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Indian Institute of Technology (IIT) Bombay , India</p>
+                  </div>
+                </div>
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <h4>ACM India President -- <span><a href="https://www.cse.iitb.ac.in/~ranade/" target="_blank"
+                          rel="noopener">Abhiram
+                          Ranade</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Professor, Dept. of Computer Science & Engineering, IIT Bombay - India</p>
+                  </div>
+                </div>
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <h4>Local Coordinator -- <span><a href="https://www.unigoa.ac.in/faculty/venkatesh-v-kamat.html"
+                          target="_blank" rel="noopener">Venkatesh
+                          Kamat</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Goa University, Goa, India</p>
+                  </div>
+                </div>
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <h4>Presided over by -- <span><a
+                          href="https://www.unigoa.ac.in/about-us/leadership/vicechancellor.html" target="_blank"
+                          rel="noopener">Varun Sahni</a></span>
+                      <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Vice Chancellor, Goa University, Goa, India</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:30 AM</time></div>
+              <div class="col-md-10">
+                <h4>Tea + Poster Session 1</h4>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:45 AM</time></div>
+              <div class="col-md-10">
+                <h4>CC2020 Talk 1 Competencies <a href="pages/abstract/cc2020talk1-abstract.html"><span
+                      class="read-more">Read more</span></a></h4>
+                <!--<div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <a href=""><img src="img/speakers/1.jpg" alt="Allen Parrish"></a>
+
+                    </div>
+
+                    <h4><span><a href="http://www.cse.msstate.edu/people/faculty/allen-parrish/" target="_blank"
+                          rel="noopener">Allen Parrish</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>
+                      Associate Vice President for Research,
+                      Office of Research and Economic Development.
+                      Professor, Computer Science and Engineering
+                      Mississippi State University
+                    </p>
+                  </div>
+                </div>
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/2.jpg" alt="Alison Clear">
+                    </div>
+
+                    <h4><span><a href="https://www.eit.ac.nz/staff/alison-clear/" target="_blank" rel="noopener">Alison
+                          Clear</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Associate Professor - School of Computing, Eastern Institute of Technology, Auckland, New Zealand
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:30 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/3.jpg" alt="Shingo Takada">
+                </div>
+                <h4>CC2020 talk 2 CC2020 tool <a href="pages/abstract/cc2020talk2-abstract.html"><span
+                      class="read-more">Read more</span></a></h4>
+                <h4><span><a href="https://www.st.keio.ac.jp/en/tprofile/ics/takada.html" target="_blank"
+                      rel="noopener">Shingo
+                      Takada</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                  </span></h4>
+                <p>
+                  Info. Processing Society, Keio University, Japan
+                </p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12:15 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/4.jpg" alt="Abhiram Ranade">
+                </div>
+                <h4>Programming Pedagogy</h4>
+                <h4><span><a href="https://www.cse.iitb.ac.in/~ranade/" target="_blank" rel="noopener">Abhiram
+                      Ranade</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                  </span></h4>
+                <p>Professor, Dept. of Computer Science & Engineering, IIT Bombay - India</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-4"><time>01:00 PM</time></div>
+              <div class="col-md-8">
+                <h4>Lunch Break</h4>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>02:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/5.png" alt="Viraj Kumar">
+                </div>
+                <h4>Assessment Resources for Introductory Programming <a
+                    href="pages/abstract/programming-abstract.html"><span class="read-more">Read more</span></a></h4>
+                <h4><span><a href="http://dccc.iisc.ac.in/vk.html" target="_blank" rel="noopener">Viraj Kumar</a></span>
+                  <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                  </span></h4>
+                <p>Visiting Professor, Divecha Centre for Climate Change, Indian Institute of Science (IISc) Bengaluru,
+                  Karnataka</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>02:45 PM</time></div>
+              <div class="col-md-10">
+                <h4>CodeChef : Algorithmic Programming Competitions and Computing Education <a
+                    href="pages/abstract/codechef-session-abstract.html"><span class="read-more">Read more</span></a>
+                </h4>
+                <h4><span><a href="" target="_blank" rel="noopener">Arjun Arul </a></span><span><i
+                      class="fa fa-external-link"></i></span></h4>
+                <p>Training and Learning Head, CodeChef</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>03:30 PM</time></div>
+              <div class="col-md-10">
+                <h4>Tea + Poster Session 2</h4>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>03:45 PM</time></div>
+              <div class="col-md-10">
+                <h4>GitHub for Education <a
+                    href="pages/abstract/github-session-abstract.html"><span class="read-more">Read more</span></a></h4><br/>
+                <h4>ACM Council Meeting (closed door)</h4>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>06:15 PM</time></div>
+              <div class="col-md-10">
+                <h4>Meeting with Dignitaries (closed door)</h4>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>07:30 PM</time></div>
+              <div class="col-md-10">
+                <h4>Banquet</h4>
+                <p>Laran Lawn, ICG - Goa</p>
+              </div>
+            </div>
+            <h3 class="sub-heading"><!--A bus for the venue of the banquet will leave at 6.oo from ICG. People who would
+              like to take a boat cruise can do so from 6.30 to 7.30 which is located just next to the Banquet venue.
+              Tickets will be available for the cruise at the reception from 9.30 a.m. and will be sold by the
+              authorised representative of the cruise</h3>
+          </div>
+
+
+
+
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:15 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/20.jpg" alt="Hemangee K. Kapoor">
+                </div>
+                <h4>Assessing Computer Architecture </h4>
+                <h4><span><a href="https://www.iitg.ac.in/hemangee/" target="_blank" rel="noopener">Hemangee K.
+                      Kapoor</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                  </span></h4>
+                <p>
+                  Professor of CSE
+                  Associate Dean Students' Affairs
+                  Department of CSE
+                  Indian Institute of Technology Guwahati
+                  Guwahati (Assam)
+                  India.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:00 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/8.jpg" alt="Jayant R. Haritsa">
+                </div>
+                <h4>Database Design, Access and Internals I <a href="pages/abstract/database-abstract.html"><span
+                      class="read-more">Read more</span></a></h4>
+                <h4><span><a href="https://dsl.cds.iisc.ac.in/~haritsa/" target="_blank" rel="noopener">Jayant R.
+                      Haritsa</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                  </span></h4>
+                <h4><span></span></h4>
+                <p>
+                  Senior Professor
+                  Department of Computational and Data Sciences (CDS)
+                  and
+                  Department of Computer Science and Automation (CSA)
+                  Indian Institute of Science (IISc)
+                  Bangalore, India</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:30 AM</time></div>
+              <div class="col-md-10">
+                <h4>Tea + Poster Session 3</h4>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:45 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/8.jpg" alt="Jayant R. Haritsa">
+                </div>
+                <h4>Database Design, Access and Internals II <a href="pages/abstract/database-abstract.html"><span
+                      class="read-more">Read more</span></a></h4>
+                <h4><span><a href="https://dsl.cds.iisc.ac.in/~haritsa/" target="_blank" rel="noopener">Jayant R.
+                      Haritsa</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                  </span></h4>
+                <p>
+                  Senior Professor
+                  Department of Computational and Data Sciences (CDS)
+                  and
+                  Department of Computer Science and Automation (CSA)
+                  Indian Institute of Science (IISc)
+                  Bangalore, India</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:15 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/6.jpg" alt="Venkatesh Raman">
+                </div>
+                <h4>Problem Solving through Algorithms <a href="pages/abstract/algorithm-abstract.html"><span
+                      class="read-more">Read more</span></a></h4>
+                <h4><span><a href="https://www.imsc.res.in/~vraman/" target="_blank" rel="noopener">Venkatesh
+                      Raman</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                  </span></h4>
+                <p>Professor, Theoretical Computer Science, The Institute of Mathematical Sciences (IMSc), Chennai
+                  India</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:45 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/9.jpg" alt="Bhaskar Raman">
+                </div>
+                <h4>Computer Networks: Interactive Teaching, Active Learning <a
+                    href="pages/abstract/networks-abstract.html"><span class="read-more">Read more</span></a></h4>
+                <h4><span><a href="https://www.cse.iitb.ac.in/~br/webpage/" target="_blank" rel="noopener">Bhaskar
+                      Raman</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                  </span></h4>
+                <p>Professor, Dept of Computer Science and Engineering,
+                  Indian Institute of Technology (IIT) Bombay India</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12:30 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/10.jpg" alt="Dr Ram P Rustagi">
+                </div>
+                <h4>An Experiential Learning approach to teaching Computer Networks <a
+                    href="pages/abstract/challengesCN-abstract.html"><span class="read-more">Read more</span></a></h4>
+                <h4><span><a href="https://www.rprustagi.com/" target="_blank" rel="noopener">Ram P
+                      Rustagi</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                  </span></h4>
+                <p>Professor Computer Science & Engineering KSIT Bangalore India</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>01:15 PM</time></div>
+              <div class="col-md-10">
+                <h4>Lunch Break</h4>
+              </div>
+            </div>
+
+
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>02:15 PM</time></div>
+              <div class="col-md-10">
+                <h4>Panel Discussion: Autonomy as an enabler</h4>
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/5.png" alt="Viraj Kumar">
+                    </div>
+                    <h4>Moderator -- <span><a href="http://dccc.iisc.ac.in/vk.html" target="_blank" rel="noopener">Viraj
+                          Kumar</a></span>
+                      <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Visiting Professor, Divecha Centre for Climate Change, Indian Institute of Science (IISc)
+                      Bengaluru,
+                      Karnataka</p>
+                  </div>
+                </div>
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/11.png" alt="Nadarajan R">
+                    </div>
+                    <h4><span><a href="https://vidwan.inflibnet.ac.in/profile/56053" target="_blank"
+                          rel="noopener">Nadarajan R</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>
+                      Professor and Head Department of Applied Mathematics And Computational Sciences, PSG College Of
+                      Technology,
+                      Coimbatore India</p>
+                  </div>
+                </div>
+
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/12.jpg" alt="Chitra Babu">
+                    </div>
+                    <h4><span><a href="http://www.ssn.edu.in/?page_id=2082" target="_blank" rel="noopener">Chitra
+                          Babu</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Professor & Head Department of Computer Science and Engineering, Sri Sivasubramniya
+                      Nadar(SSN) College of Engineering, Tamil Nadu India </p>
+                  </div>
+                </div>
+
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/13.jpg" alt="Dr. Deepak H Sharma">
+                    </div>
+                    <h4><span><a
+                          href="https://kjsce.somaiya.edu/kjsce/academic/faculty/0000160120/dr__deepak_h_sharma/0"
+                          target="_blank" rel="noopener">Deepak H Sharma</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Professor,
+                      Department of Computer Engineering K J Somaiya College of Engineering, Mumbai India</p>
+                  </div>
+                </div>
+
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/14.jpg" alt="Dr. Shradha Kanwar">
+                    </div>
+                    <h4><span><a href="https://www.linkedin.com/in/dr-shradha-kanwar-85729722/?originalSubdomain=in"
+                          target="_blank" rel="noopener">Shradha Kanwar</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Chief Learning Officer, iNurture Education Solutions Pvt. Ltd. Bangalore India
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>03:00 PM</time></div>
+              <div class="col-md-10">
+                <h4>CS education workshop : Computing Education Research with a focus on teaching-learning of thinking
+                  skills
+                </h4>
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/15.jpg" alt="Shirdhar Iyer">
+                    </div>
+                    <h4><span><a href="https://www.cse.iitb.ac.in/~sri/sri-bio.html" target="_blank"
+                          rel="noopener">Sridhar Iyer</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>
+                      Professor,
+                      Inter-disciplinary Program in Educational Technology &
+                      Dept of Computer Science and Engineering, IIT Bombay, India</p>
+                  </div>
+                </div>
+
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/16.jpg" alt="Deepti Reddy">
+                    </div>
+                    <h4><span><a href="http://www.et.iitb.ac.in/~deepti/index.html" target="_blank"
+                          rel="noopener">Deepti Reddy</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Doctoral Research Scholar(IITB) and Associate Professor in Department of Computer
+                      Engineering, SIES Graduate School of Technology, Mumbai University, Mumbai, India</p>
+                  </div>
+                </div>
+
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/17.png" alt="T.G.Lakshmi">
+                    </div>
+                    <h4><span><a href="http://www.et.iitb.ac.in/~lakshmig/" target="_blank"
+                          rel="noopener">T.G.Lakshmi</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Doctoral Research Scholar Inter Disciplinary Program in Educational Technology
+                      Indian
+                      Indian Institute of Technology (IIT) Bombay India</p>
+                  </div>
+                </div>
+
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/18.jpg" alt="Prajish Prasad">
+                    </div>
+                    <h4><span><a href="http://www.et.iitb.ac.in/~prajish/" target="_blank" rel="noopener">Prajish
+                          Prasad</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <p>
+                      Graduate Student,
+                      Inter-disciplinary Program in Educational Technology
+                      Indian Institute of Technology (IIT) Bombay India
+                    </p>
+                  </div>
+                </div>
+
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/19.jpg" alt="Kavya Alse">
+                    </div>
+                    <h4><span><a href="http://www.et.iitb.ac.in/~kavya/" target="_blank" rel="noopener">Kavya
+                          Alse</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Doctoral Research Scholar, Inter Disciplinary Program in Educational Technology Indian
+                      Institute of Technology Bombay India
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-3"><time>03:00 PM</time> - <time>06:00</time></div>
+              <div class="col-md-9">
+                <h4>ACM W Council Meeting</h4>
+                <p>Closed group meeting</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-3"><time>04:30 PM</time> - <time>04:45 PM</time></div>
+              <div class="col-md-9">
+                <h4>Tea Break</h4>
+                <p>Workshop will continue after tea break</p>
+              </div>
+            </div>
+            <div class="row schedule-item">
+              <div class="col-md-3"><time>06:30 PM</time> - <time>07:30 PM</time></div>
+              <div class="col-md-9">
+                <h4>Cruise</h4>
+                <p>Tickets can be bought on 10th October from reception desk.</p>
+                <p>Bus will leave at 6:00pm sharp from Dept. of Computer Science Block, Goa University after workshop for the cruise on 11th October. Same bus will leave from the cruise jetty at 7:30pm sharp and drop the participants back to the respective place of stay.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:30 AM</time></div>
+              <div class="col-md-10">
+                <h4>Best Abstracts -- Invited Talks</h4>
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <h4>An interactive AVL-Tree Intelligent Tutoring System<a
+                        href="pages/abstract/avl-abstract.html"><span class="read-more"> Read more</span></a></h4>
+                    <h4><span><a href="https://arpitjainds.github.io/findme" target="_blank" rel="noopener">Arpit
+                          Jain</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                  </div>
+                </div>
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <h4>Project Based Learning in Computer Architecture<a
+                        href="pages/abstract/project-based-learning-abstract.html"><span class="read-more"> Read
+                          more</span></a></h4>
+                    <h4><span><a href="http://cse.iitrpr.ac.in/dr-neeraj-goel" target="_blank" rel="noopener">Neeraj
+                          Goel</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                  </div>
+                </div>
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <h4>Academic Progress Monitoring System - An aid to developing effective curricula and pedagogy<a
+                        href="pages/abstract/academic-progress-abstract.html"><span class="read-more"> Read
+                          more</span></a></h4>
+                    <h4><span><a href="" target="_blank" rel="noopener">Suganaya Ramadoss</a></span> <span><i
+                          class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <h4><span><a href="" target="_blank" rel="noopener">Meenakshi Lakshmanan</a></span> <span><i
+                          class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:30 AM</time></div>
+              <div class="col-md-10">
+                <h4>Tea Break</h4>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:45 AM</time></div>
+              <div class="col-md-10">
+                <h4>Industry Panel Discussion : Industry Expectations from Fresh Employees</h4>
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <h4>Moderator -- <span><a href="" target="_blank" rel="noopener">R. Venkatesh</a></span> <span><i
+                          class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Chief Scientist, Tata Consultancy Services (TCS)</p>
+                  </div>
+                </div>
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/23.jpg" alt="Mona Bharadwaj">
+                    </div>
+                    <h4><span><a
+                          href="https://www.linkedin.com/in/mona-bharadwaj-6495942?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bfp9bhBfRT02yHMxthEHklA%3D%3D"
+                          target="_blank" rel="noopener">Mona Bharadwaj</a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Head - University Relations, IBM India</p>
+                  </div>
+                </div>
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/24.jpg" alt="Divy Thakkar">
+                    </div>
+                    <h4><span><a href="https://sites.google.com/view/divythakkar/home" target="_blank"
+                          rel="noopener">Divy Thakkar </a></span> <span><i class="fa fa-external-link"
+                          aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Program Manager - Research Partnerships and External Education at-scale, Google Research</p>
+                  </div>
+                </div>
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/25.jpg" alt="Pandurang Kamat">
+                    </div>
+                    <h4><span><a href="linkedin.com/in/pandurang" target="_blank" rel="noopener">Pandurang
+                          Kamat</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Assoc CTO, Persistent Systems</p>
+                  </div>
+                </div>
+                <div class="row group-row">
+                  <div class="col-md-12">
+                    <div class="speaker">
+                      <img src="img/speakers/26.jpg" alt="Kaarthik Sivakumar">
+                    </div>
+                    <h4><span><a
+                          href="https://www.linkedin.com/in/kaarthiks?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bp%2B5E6rpzQJuBXqao9Tye1Q%3D%3D"
+                          target="_blank" rel="noopener">Kaarthik Sivakumar</a></span> <span><i
+                          class="fa fa-external-link" aria-hidden="true"></i>
+                      </span></h4>
+                    <p>Principal Engineer, Cisco. ACM India Eminent Speaker</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12:15 PM</time></div>
+              <div class="col-md-10">
+                <h4>Lunch Break</h4>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>01:30 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/7.jpg" alt="Madhavan Mukund">
+                </div>
+                <h4>Automated Assessment: Algorithm Assessment for Large Scale Audience <a
+                    href="pages/abstract/madhavan-abstract.html"><span class="read-more">Read more</span></a></h4>
+                <h4><span><a href="https://www.cmi.ac.in/~madhavan/" target="_blank" rel="noopener">Madhavan
+                      Mukund</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                  </span></h4>
+                <p>Deputy Director and Dean of Studies,
+                  Chennai Mathematical Institute (CMI), Chennai, India</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>02:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/21.jpg" alt="S. Sudarshan">
+                </div>
+                <h4>Automated Assessment: Automated grading of SQL queries</h4>
+                <h4><span><a href="https://www.cse.iitb.ac.in/~sudarsha/" target="_blank" rel="noopener">S.
+                      Sudarshan</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                  </span></h4>
+                <p>
+                  Subrao M. Nilekani Chair Professor,
+                  Dept. of Computer Science and Engineering Indian Institute of Technology (IIT) Bombay India</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>02:45 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/22.jpg" alt="Dr Shirish K. Shevade">
+                </div>
+                <h4>Deep Reinforcement Learning for Syntactic Error Repair <a
+                    href="pages/abstract/reinforcement-learning-abstract.html"><span class="read-more">Read
+                      more</span></a></h4>
+                <h4><span><a href="https://www.csa.iisc.ac.in/~shirish/" target="_blank" rel="noopener">Shirish K.
+                      Shevade</a></span> <span><i class="fa fa-external-link" aria-hidden="true"></i>
+                  </span></h4>
+                <p>
+                  Associate Professor,
+                  Indian Institute of Science (IISc) Bangalore India</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>03:30 PM</time></div>
+              <div class="col-md-10">
+                <h4>Closing session followed by Tea </h4>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+    -->
+      </div>
+
+    </section>
+
+    <!--==========================
+      Venue Section
+    ============================-->
+    <section id="venue" class="wow fadeInUp">
+
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h2>Event Venue</h2>
+          <p>Event venue location info</p>
+        </div>
+
+        <div class="row no-gutters">
+          <div class="col-lg-12 venue-map">
+            
+          </div>
+          <div class="col-lg-12 venue-info">
+            <div class="row justify-content-center">
+              <div class="col-11 col-lg-11">
+                <h3>Visvesvaraya National Institute of Technology Maharashtra</h3>
+                <p style="text-align:center">Visvesvaraya National Institute of Technology, Nagpur is
+one of the thirty-one National Institutes of Technology in the
+country. The Govt. of India conferred on the Institute, the
+Deemed to be University status (under University Grants
+Commission Act, 1956 (3 of 1956)) with effect from 26th
+June 2002. Subsequently, the Central Govt. by Act of
+Parliament (National Institutes of Technology Act, 2007 (29
+of 2007)) declared VNIT Nagpur as an Institute of National
+Importance along with all other NITs. The Act was brought
+into force from 15th August 2007. Earlier, the Institute was
+known as Visvesvaraya Regional College of Engineering
+(VRCE). It was established in the year 1960 under the
+scheme sponsored by Govt. of India and Govt. of
+Maharashtra. The college was started in June 1960 by
+amalgamating the State Govt. Engineering College
+functioning at Nagpur since July 1956. In the meeting held
+in October 1962, the Governing Board of the College
+resolved to name it after the eminent engineer, planner, and
+statesman of the country Sir M. Visvesvaraya. The Institute
+is well connected within 5-8 km to Airport/ Railways and
+Central Bus station.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!--<div class="container-fluid venue-gallery-container">
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/1.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/2.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/3.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/4.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/4.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/5.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/5.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/6.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/6.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/7.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/7.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/8.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/8.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>-->
+
+    </section>
+
+    <!--==========================
+      Hotels Section
+    ============================-->
+    <!--<section id="hotels" class="section-with-bg">
+      <div class="container">
+        <div class="section-header">
+          <h2>Hotels</h2>
+          <p>Nearby Hotels</p>
+        </div>
+        <div class="row" id="accomodation-info">
+          <div class="col-12">
+            <p> It is better to book your accommodation well in advance to avail
+              better rates.</p>
+            <p>Limited number of accommodation is available in VNIT Guest House on a first-come-first-serve
+              basis. (<a href="./pages/accomodation.html">More details</a>)</p>
+            <p>The hotel tariff varies anywhere between INR 2500 to INR 15000 per night. Few of the hotels in the
+              vicinity of the conference venue are:</p>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-lg-2 col-md-4">
+            <div class="hotel">
+              <div class="hotel-img">
+                <img src="img/hotels/i3.jpg" alt="Hotel 1" class="img-fluid">
+              </div>
+              <h3><a href="https://www.treebo.com/hotels-in-nagpur/treebo-trip-drona-inn-gandhi-nagar-1145/" target="_blank">treebo trip drona</a></h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+
+              </div>
+              <p>1.0 Km from the Venue</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4">
+            <div class="hotel">
+              <div class="hotel-img">
+                <img src="img/hotels/i1.jpg" alt="Hotel 2" class="img-fluid">
+              </div>
+              <h3><a href="https://www.airportcentrepoint.com/" target="_blank">Airport Centre Point</a></h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>7.7 Km from the Venue</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <div class="hotel">
+              <div class="hotel-img">
+                <img src="img/hotels/i6.jpg" alt="Hotel 3" class="img-fluid">
+              </div>
+              <h3><a href="https://www.radissonhotels.com/en-us/hotels/radisson-blu-nagpur?" target="_blank">Radission Blue Hotel</a></h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>4.8 Km from the Venue</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <div class="hotel">
+              <div class="hotel-img">
+                <img src="img/hotels/i5.jpg" alt="Hotel 4" class="img-fluid">
+              </div>
+              <h3><a href="https://thenagpurashok.com/" target="_blank">Nagpur Ashok</a></h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>2.2 Km from the Venue</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <div class="hotel">
+              <div class="hotel-img">
+                <img src="img/hotels/i2.jpg" alt="Hotel 5" class="img-fluid">
+              </div>
+              <h3><a href="https://www.treebo.com/hotels-in-nagpur/treebo-trip-corona-house-aath-rasta-chowk-995/" target="_blank">Tribo trip Corna </a></h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>2.0 Km from the Venue</p>
+            </div>
+          </div>
+
+
+          <div class="col-lg-2 col-md-4">
+            <div class="hotel">
+              <div class="hotel-img">
+                <img src="img/hotels/i4.jpg" alt="Hotel 6" class="img-fluid">
+              </div>
+              <h3><a href="https://www.goibibo.com/hotels/flexistays-hotel-in-nagpur-7230133656232494706/" target="_blank">Flexistays Hotel</a></h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>3.0 Km from the Venue</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>-->
+    <!--==========================
+      Registration Section
+============================ --> 
+<section id="register" class="pricing py-5 wow fadeIn">
+  <div class="container">
+  <div class="section-header">
+                    <h2>Registration</h2>
+                </div>
+    <div class="row justify-content-md-center">
+      
+      <!-- Plus Tier -->
+      <div class="grid-x grid-margin-x small-up-2 medium-up-3">
+        <div class="cell">
+          <div class="card">
+            <h5 class="card-title text-muted text-uppercase text-center"> ACM Compute<span class="text-primary"> 2020</span> </h5>
+            <h6 class="card-price text-center text-light bg-dark">Domestic Delegates</span></h6>
+            <hr>
+            <div class="card-section">
+            <ul class="fa-ul">
+              <li><strong>Fees Towards Registration</strong></li>
+              <li>Rs. 300 /- </li>
+              <li><Strong>GST</Strong></li>
+              <li>Rs. 54 /-</li>
+              <li><Strong>Total Fees </strong></li>
+              <li>Rs.354 /-</li>
+            </ul>
+            <a href="https://www.eventavenue.com/attReglogin.do?eventId=EVT8571" class="button">Pay and Register</a>
+          </div>
+        </div>
+        </Strong>
+        </div>
+
+      </div>
+      <!-- Pro Tier -->
+      <div class="grid-x grid-margin-x small-up-2 medium-up-3">
+        <div class="cell">
+          <div class="card">
+            <h5 class="card-title text-muted text-uppercase text-center">ACM Compute <span class="text-primary">2020</span></h5>
+            <h6 class="card-price text-center text-light bg-dark">Foreign Delegates</span></h6>
+            <hr>
+            <div class="card-section">
+            <ul class="fa-ul">
+              <li><strong>Fees Towards Registration </strong></li>
+              <li>US. $10 /-  </li>
+              <li><Strong>Taxes</strong></li>
+              <li>Included in Fees </li>
+              <li><strong>Total Fees</strong></li>
+              <li> US. $10 /- </li>
+              
+            </ul>
+            <a href="https://www.eventavenue.com/attReglogin.do?eventId=EVT8579" class="button">Pay and Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <!--==========================
+      Gallery Section
+    ============================-->
+    <section id="gallery" class="wow fadeInUp">
+
+      <div class="container">
+        <div class="section-header">
+          <h2>Great News! You may register here for free access</h2>
+          <!--<p>Check our gallery from the recent events</p>-->
+                 </div>
+                 <a id ="fbtn" href="registration.php" class="button round success">Fill the form</a> 
+      </div>
+
+      <!--<div class="owl-carousel gallery-carousel">
+        <a href="img/gallery/1.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/1.jpg"
+            alt=""></a>
+        <a href="img/gallery/2.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/2.jpg"
+            alt=""></a>
+        <a href="img/gallery/3.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/3.jpg"
+            alt=""></a>
+        <a href="img/gallery/4.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/4.jpg"
+            alt=""></a>
+        <a href="img/gallery/5.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/5.jpg"
+            alt=""></a>
+        <a href="img/gallery/6.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/6.jpg"
+            alt=""></a>
+        <a href="img/gallery/7.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/7.jpg"
+            alt=""></a>
+        <a href="img/gallery/8.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/8.jpg"
+            alt=""></a>
+      </div>-->
+
+    </section>
+
+    <!--==========================
+      Sponsors Section
+    ============================-->
+    <section id="supporters" class="section-with-bg wow fadeInUp">
+
+      <div class="container">
+        <div class="section-header">
+          <h2 style="color:#ffffff">Sponsors</h2>
+          <p style="color:#ffffff">ACM India Institutional Platinum Partners</p>
+        </div>
+
+        <div class="no-borders row no-gutters supporters-wrap clearfix">
+
+          <div class="col-lg-3 col-md-3 col-xs-12">
+            <div class="supporter-logo">
+              <img src="img/supporters/icertis-logo.jpg" class="img-circle" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-xs-12">
+            <div class="supporter-logo">
+              <img src="img/supporters/persistent-logo.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-xs-12">
+            <div class="supporter-logo">
+              <img src="img/supporters/tcs-logo.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--==========================
+      Host Section
+    ============================-->
+    <section id="host" class=" wow fadeInUp">
+
+      <div class="container">
+        <div class="section-header">
+          <h2>In collaboration with</h2>
+        </div>
+
+        <div class="row no-gutters supporters-wrap clearfix">
+
+          <div class="col-lg-12 col-md-12 col-xs-12">
+            <div class="supporter-logo">
+              <a href="https://www.unigoa.ac.in/" target="_blank" rel="noopener">
+                <img src="img/supporters/vnit.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!--==========================
+      F.A.Q Section
+    ============================-->
+    <section id="faq" class="section-with-bg wow fadeInUp">
+
+      <div class="container">
+
+        <div class="section-header">
+          <h2>F.A.Q </h2>
+          <p>Will be updated..</p>
+        </div>
+
+        <!--<div class="row justify-content-center">
+          <div class="col-lg-9">
+            <ul id="faq-list">
+
+              <li>
+                <a data-toggle="collapse" class="collapsed" href="#faq1">Non consectetur a erat nam at lectus urna duis?
+                  <i class="fa fa-minus-circle"></i></a>
+                <div id="faq1" class="collapse" data-parent="#faq-list">
+                  <p>
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
+                    gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc
+                  faucibus a pellentesque? <i class="fa fa-minus-circle"></i></a>
+                <div id="faq2" class="collapse" data-parent="#faq-list">
+                  <p>
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id
+                    donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
+                    elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit
+                  pellentesque habitant morbi? <i class="fa fa-minus-circle"></i></a>
+                <div id="faq3" class="collapse" data-parent="#faq-list">
+                  <p>
+                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar
+                    elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque
+                    eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis
+                    sed odio morbi quis
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend
+                  mi in nulla? <i class="fa fa-minus-circle"></i></a>
+                <div id="faq4" class="collapse" data-parent="#faq-list">
+                  <p>
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id
+                    donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
+                    elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et
+                  tortor consequat? <i class="fa fa-minus-circle"></i></a>
+                <div id="faq5" class="collapse" data-parent="#faq-list">
+                  <p>
+                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in.
+                    Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est.
+                    Purus gravida quis blandit turpis cursus in
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel
+                  pharetra vel turpis nunc eget lorem dolor? <i class="fa fa-minus-circle"></i></a>
+                <div id="faq6" class="collapse" data-parent="#faq-list">
+                  <p>
+                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada
+                    nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut
+                    venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas
+                    egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>-->
+
+      </div>
+
+    </section>
+
+    <!--==========================
+      Subscribe Section
+    ============================-->
+    <!--<section id="subscribe">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h2>Newsletter</h2>
+          <p>Rerum numquam illum recusandae quia mollitia consequatur.</p>
+        </div>
+
+        <form method="POST" action="#">
+          <div class="form-row justify-content-center">
+            <div class="col-auto">
+              <input type="text" class="form-control" placeholder="Enter your Email">
+            </div>
+            <div class="col-auto">
+              <button type="submit">Subscribe</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </section>->
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="section-bg wow fadeInUp">
+
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Contact Us</h2>
+        </div>
+
+        <div class="row contact-info" style="justify-content:center;">
+          <div class="contact-email">
+            <i class="ion-ios-email-outline"></i>
+            <h3>Email</h3>
+            <p><a href="mailto:ComputeGoa2019@gmail.com" target="_blank">acmcompute2020@gmail.com</a></p>
+          </div>
+          <!--
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Address</h3>
+              <address>A108 Adam Street, NY 535022, USA</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:info@example.com">info@example.com</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                  data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                  data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required"
+                data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>-->
+        </div>
+        <div class="row contact-info" style="justify-content:center;">
+          <div class="contact-email">
+            <i class="ion-ios-email-outline"></i>
+            <h3>For Registration Queries</h3>
+            <p><a href="mailto:compute2019.reg@gmail.com" target="_blank">acmcompute2020.reg@gmail.com</a></p>
+          </div>
+        </div>
+    </section><!-- #contact -->
+
+  </main>
+
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <!--<div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <img src="img/logo.png" alt="TheEvenet">
+            <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro.
+              Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore
+              consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>-->
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>ACM India</strong>
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
+        -->
+        <a href="https://bootstrapmade.com/">Aashish and Deep</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
